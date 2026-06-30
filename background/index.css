@@ -625,3 +625,10 @@ width: 170px;
 .heart{
     color: #780385;
 }
+@media (max-width: 768px) {
+  .dashbar { display: none; }
+  .main { margin-left: 0; padding: 20px; }
+  .grid { grid-template-columns: repeat(2, 1fr); }
+  .user-profile { flex-direction: column; align-items: flex-start; }
+  .tier, .balance { border-left: none; padding-left: 0; margin-top: 10px; }
+}
